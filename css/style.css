@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 75%;
+  margin: auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header, footer{
+  height: 80px;
+}
+
+header{
+  background-color: #e579e6;
+}
+
+main{
+  margin: 20px 0;
+}
+
+
+footer{
+  background-color: #8801fe;
+}
+
+aside, section{
+  float: left;
+  margin-top: 80px;
+}
+
+.jumbotron{
+  min-height: 300px;
+  background-color: #e1d67a;
+}
+
+.box-main{;
+  background-color: #abcfe7;
+  margin-top: 40px;
+}
+
+aside{
+  min-height: 400px;
+  width: 20%;
+  border-top: 10px solid #0685f8;
+  border-bottom: 10px solid #0685f8;
+
+}
+
+section{
+  width: 60%;
+  border: 10px solid #0685f8;
+  min-height: 400px;
+}
