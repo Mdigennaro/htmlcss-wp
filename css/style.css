@@ -5,7 +5,7 @@
 }
 
 body{
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 
@@ -15,8 +15,8 @@ body{
   clear: both;
 }
 
-header, footer{
-  height: 80px;
+header{
+  height: 600px;
 }
 
 header img{
@@ -41,12 +41,39 @@ nav li a:hover, nav li a:active{
   color: red;
 }
 
+.jumbotron{
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  border-radius: 10px;
+  background-blend-mode: darken;
+  position: relative;
+}
+
+.container{
+  width: 57%;
+  position: absolute;
+  top: 60%;
+  padding-left: 5%;
+}
+
+.jumbotron .container span, p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron .container span{
+  font-size: 30px;
+  
+}
 main{
   margin: 20px 0;
 }
 
 
 footer{
+  height: 40px;
   background-color: #8801fe;
 }
 
@@ -55,12 +82,8 @@ aside, section{
   margin-top: 80px;
 }
 
-.jumbotron{
-  min-height: 300px;
-  background-color: #e1d67a;
-}
 
-.box-main{;
+.box-main{
   background-color: #abcfe7;
   margin-top: 40px;
 }
