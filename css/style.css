@@ -23,6 +23,26 @@ header{
   background-color: #e579e6;
 }
 
+header img{
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a, nav li a:visited{
+  color: grey;
+  text-decoration: none;
+}
+
+nav li a:hover, nav li a:active{
+  color: red;
+}
+
 main{
   margin: 20px 0;
 }
