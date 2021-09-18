@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -20,16 +21,18 @@ header{
 }
 
 header img{
-  width: 80px;
-  margin-bottom: 10px;
+  width: 100px;
 }
 
+nav{
+  margin: 15px 0;
+}
 nav li{
   list-style: none;
   display: inline-block;
   margin-right: 10px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 10px;
+  border: 20px;
 }
 
 nav li a, nav li a:visited{
@@ -60,44 +63,90 @@ nav li a:hover, nav li a:active{
 
 .jumbotron .container span, p{
   color: white;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron .container span{
   font-size: 30px;
   
 }
+
 main{
-  margin: 20px 0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
+.maintop{
+  min-height: 80px;
+  margin-bottom: 10px;
+}
+
+.maintop h1 strong{
+  font-size: 30px;
+}
+
+.maintop span{
+  font-size: 15px;
+  color: #868686;
+}
+
+.left-col, .center-col, .right-col{
+  float: left;
+  min-height: 500px;
+}
+
+.left-col, .right-col{
+  width: 20%;
+}
+
+.center-col{
+  width: 56%;
+  margin: 0 2%;
+}
+
+.lorem1-img{
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../img/img-1.jpg);
+  border-radius: 10px;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+.lorem2-img{
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../img/banner-2.jpg);
+  border-radius: 10px;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+.lorem3-img{
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../img/img-3.jpg);
+  border-radius: 10px;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+h3{
+  font-size: 17px;
+  margin: 15px 0;
+}
+
+.testo1{
+  color: #868686;
+  font-size: 15px;
+}
 
 footer{
   height: 40px;
-  background-color: #8801fe;
+  text-align: center;
 }
 
-aside, section{
-  float: left;
-  margin-top: 80px;
-}
-
-
-.box-main{
-  background-color: #abcfe7;
-  margin-top: 40px;
-}
-
-aside{
-  min-height: 400px;
-  width: 20%;
-  border-top: 10px solid #0685f8;
-  border-bottom: 10px solid #0685f8;
-
-}
-
-section{
-  width: 60%;
-  border: 10px solid #0685f8;
-  min-height: 400px;
+footer span{
+  color: red;
 }
