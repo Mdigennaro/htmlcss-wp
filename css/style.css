@@ -71,13 +71,12 @@ nav li a:hover, nav li a:active{
 }
 
 main{
-  padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
 .maintop{
   min-height: 80px;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 
 .maintop h1 strong{
